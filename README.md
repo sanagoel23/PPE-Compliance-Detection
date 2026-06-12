@@ -71,7 +71,31 @@ This project uses YOLOv8 for object detection and transfer learning.
 
 # Model Performance
 
+Detailed training metrics are available here:
+
+[Training Metrics](docs/training_metrics.md)
+
+
+### Performance Summary
+
 Dataset Size: 40,000+ annotated images
+
+| Metric | Value |
+|----------|----------|
+| Precision | 72.4% |
+| Recall | 75.2% |
+| mAP@50 | 77.9% |
+| mAP@50-95 | 53.3% |
+
+### Best Performing Classes
+
+| Class | mAP@50 |
+|---------|---------|
+| Harness | 97.9% |
+| Vest | 92.8% |
+| No Helmet | 89.8% |
+| Helmet | 88.5% |
+| Person | 88.1% |
 
 Classes:
 - helmet
@@ -85,21 +109,6 @@ Classes:
 - vest
 - no_vest
 - person
-
-Performance:
-
-Precision: 72.4%
-Recall: 75.2%
-mAP@50: 77.9%
-mAP@50-95: 53.3%
-
-Class Highlights:
-
-Helmet: 88.5% mAP@50
-No Helmet: 89.8% mAP@50
-Vest: 92.8% mAP@50
-Harness: 97.9% mAP@50
-Person: 88.1% mAP@50
 
 ---
 
@@ -136,16 +145,27 @@ Person: 88.1% mAP@50
 - ONNX
 
 ---
-
 ## Sample Results
 
-### PPE Detection
+### PPE Compliance Detection
 
-Add screenshots of successful detections here.
+The following examples demonstrate the model's ability to detect PPE compliance and safety violations in industrial and construction-site environments.
 
-### Safety Violation Detection
+#### Example 1
 
-Add screenshots demonstrating missing PPE detection.
+![PPE Detection 1](results/ppe1.png)
+
+#### Example 2
+
+![PPE Detection 2](results/ppe2.png)
+
+#### Example 3
+
+![PPE Detection 3](results/ppe3.png)
+
+#### Example 4
+
+![PPE Detection 4](results/ppe4.png)
 
 ---
 
