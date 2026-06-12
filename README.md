@@ -153,6 +153,4 @@ Add screenshots demonstrating missing PPE detection.
 
 Sana Goel
 
-Information Technology Undergraduate | Machine Learning & Computer Vision Enthusiast
-
 Developed as part of industrial safety monitoring initiatives focusing on AI-driven workplace safety and compliance automation.
