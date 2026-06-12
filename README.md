@@ -97,19 +97,6 @@ Dataset Size: 40,000+ annotated images
 | Helmet | 88.5% |
 | Person | 88.1% |
 
-Classes:
-- helmet
-- no_helmet
-- goggle
-- no_goggle
-- glove
-- no_glove
-- harness
-- no_harness
-- vest
-- no_vest
-- person
-
 ---
 
 ## Technology Stack
