@@ -69,15 +69,37 @@ This project uses YOLOv8 for object detection and transfer learning.
 
 ---
 
-## Performance
+# Model Performance
 
-| Metric | Score |
-|----------|----------|
-| mAP@50 | 77.9% |
-| Classes | 11 |
-| Images | 40,000+ |
+Dataset Size: 40,000+ annotated images
 
-The model demonstrates strong performance across major PPE categories including helmets, gloves, vests, harnesses, and goggles while maintaining real-time inference capability.
+Classes:
+- helmet
+- no_helmet
+- goggle
+- no_goggle
+- glove
+- no_glove
+- harness
+- no_harness
+- vest
+- no_vest
+- person
+
+Performance:
+
+Precision: 72.4%
+Recall: 75.2%
+mAP@50: 77.9%
+mAP@50-95: 53.3%
+
+Class Highlights:
+
+Helmet: 88.5% mAP@50
+No Helmet: 89.8% mAP@50
+Vest: 92.8% mAP@50
+Harness: 97.9% mAP@50
+Person: 88.1% mAP@50
 
 ---
 
