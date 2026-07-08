@@ -9,10 +9,10 @@
 
 | Metric | Value |
 |----------|----------|
-| Precision | 72.4% |
-| Recall | 75.2% |
-| mAP@50 | 77.9% |
-| mAP@50-95 | 53.3% |
+| Precision | 88.2% |
+| Recall | 85.8% |
+| mAP@50 | 90.8% |
+| mAP@50-95 | 63.3% |
 
 ## Best Performing Classes
 
